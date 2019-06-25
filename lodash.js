@@ -37,14 +37,3 @@ if (typeof describe === 'function' ) {
     })
 }
 
-
-//Project 2 recursion function to find GCD of two numbers
-
-var gcd = function(a, b) {
-    if ( ! b) {
-        return a;
-    }
-
-    return gcd(b, a % b);
-};
-console.log(gcd(20, 15));
