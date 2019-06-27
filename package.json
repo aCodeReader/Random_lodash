@@ -1,0 +1,23 @@
+{
+  "name": "random_lodash",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --no-timeouts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aCodeReader/Random_lodash.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aCodeReader/Random_lodash/issues"
+  },
+  "homepage": "https://github.com/aCodeReader/Random_lodash#readme",
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "mocha": "^6.1.4"
+  }
+}
